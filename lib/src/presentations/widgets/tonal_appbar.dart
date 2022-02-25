@@ -4,7 +4,6 @@ import 'package:metrics_bubble_flutter/src/configurations/themes/appbar_style.da
 import 'package:metrics_bubble_flutter/src/configurations/themes/colors.dart';
 import 'package:metrics_bubble_flutter/src/configurations/themes/styles.dart';
 
-import 'content_over_home_view_banner.dart';
 import 'image_with_top_shadow_widget.dart';
 
 class AppBarWidget extends StatelessWidget implements PreferredSizeWidget {
