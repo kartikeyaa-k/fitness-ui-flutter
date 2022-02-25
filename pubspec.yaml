@@ -1,0 +1,90 @@
+name: metrics_bubble_flutter
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # UI
+  flutter_svg: ^1.0.3
+  flutter_svg_provider: ^1.0.3
+  extended_image:
+    git:
+      url: https://github.com/mono0926/extended_image
+      ref: dev
+  cupertino_icons: ^1.0.2
+
+  # State management
+  flutter_bloc: ^8.0.1
+
+  # Dart data class
+  equatable: ^2.0.3
+  json_annotation: ^4.4.0
+
+  # Misc
+  dartz: ^0.10.1
+
+  # ServiceLocator
+  get_it: 7.2.0
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  json_serializable: 6.1.4
+  build_runner: 2.1.7
+
+  # Testing
+  bloc_test: 9.0.2
+  mockito: 5.0.17
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/graph.svg
+    - assets/strength.jpeg
+    - assets/strength-assement.jpeg
+    - assets/strength-score.jpeg
+    - assets/tonal-logo-202004.png
+
+  fonts:
+    - family: GT
+      fonts:
+        - asset: assets/fonts/gt/GT-America-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/gt/GT-America-Expanded-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/gt/GT-America-Expanded-Bold.ttf
+          weight: 700
+        
+    - family: Helvetica
+      fonts:
+        - asset: assets/fonts/helvetica/helvetica-light.ttf
+          weight: 100
+        - asset: assets/fonts/helvetica/Helvetica-oblique.ttf
+          weight: 400
+          style : italic
+        - asset: assets/fonts/helvetica/Helvetica.ttf
+          weight: 400
+        - asset: assets/fonts/helvetica/Helvetica-bold.ttf
+          weight: 700
+
+    - family: League Gothic
+      fonts:
+        - asset: assets/fonts/league_gothic/LeagueGothic-Regular.ttf
+          weight: 300
+        - asset: assets/fonts/league_gothic/LeagueGothic-Italic.ttf
+          style : italic
+        - asset: assets/fonts/league_gothic/LeagueGothic-Condensed.ttf
+          weight: 500
+

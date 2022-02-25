@@ -1,0 +1,1 @@
+enum AppBarStyle { scrollable, nonScrollable }
